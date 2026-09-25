@@ -30,6 +30,7 @@ export const metadata: Metadata = {
     "Next.js",
   ],
   authors: [{ name: "Kayra Cihan Başkan" }],
+  icons: { icon: "/icon.svg" },
   openGraph: {
     title: "Kayra Cihan Başkan — Yazılım Mühendisi | Backend & Yapay Zeka",
     description:
