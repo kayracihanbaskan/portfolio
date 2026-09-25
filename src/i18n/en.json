@@ -1,0 +1,145 @@
+{
+  "nav": {
+    "projects": "Projects",
+    "experience": "Experience",
+    "skills": "Skills",
+    "contact": "Contact",
+    "cv": "Download CV",
+    "langLabel": "Language selection",
+    "menuLabel": "Menu"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Kayra Cihan Başkan",
+    "title": "Software Engineer | Backend & AI",
+    "summary": "I work on FastAPI-based backend development and LLM/RAG integration. I build scalable APIs, microservice architectures, and AI systems connected to enterprise data.",
+    "location": "Samsun, Türkiye",
+    "availability": "Open to new opportunities",
+    "ctaProjects": "View Projects",
+    "ctaContact": "Get in Touch"
+  },
+  "projects": {
+    "eyebrow": "My Projects",
+    "title": "Featured work",
+    "subtitle": "Backend and AI systems I built in real products and personal projects.",
+    "viewCode": "View Code",
+    "viewLive": "Live Demo",
+    "items": [
+      {
+        "title": "RAG Document Analysis System",
+        "type": "Personal Project",
+        "description": "End-to-end RAG system for Q&A over PDF documents. Async embedding pipeline with Celery + Redis, BGE + Cross-Encoder reranking, real-time token streaming via SSE.",
+        "stack": ["FastAPI", "ChromaDB", "Redis", "Celery", "Docker", "Next.js", "SSE"],
+        "repo": "https://github.com/kayracihanbaskan/rag-document-analysis",
+        "live": ""
+      },
+      {
+        "title": "AI-Powered Notes App",
+        "type": "Team Project",
+        "description": "Secure JWT-based RESTful API with auto-tagging, summarization and semantic search via OpenAI embeddings. PostgreSQL schema managed with Alembic.",
+        "stack": ["FastAPI", "PostgreSQL", "OpenAI", "Alembic", "JWT", "TypeScript"],
+        "repo": "https://github.com/kayracihanbaskan/notepad_internn",
+        "live": ""
+      },
+      {
+        "title": "npm Dependency Graph 3D Analysis",
+        "type": "Team Research Project",
+        "description": "Tool modeling npm package dependency graphs with NetworkX and presenting them as interactive 3D plots with Plotly. Optimized recursive data fetching.",
+        "stack": ["FastAPI", "NetworkX", "Plotly", "Jinja"],
+        "repo": "https://github.com/kayracihanbaskan/SocialNetworkAnalysis",
+        "live": ""
+      },
+      {
+        "title": "Auth Service (Next.js)",
+        "type": "Personal Project",
+        "description": "End-to-end authentication service covering registration, login, password reset and session management. Live demo deployed on Vercel.",
+        "stack": ["Next.js", "JWT", "TypeScript"],
+        "repo": "https://github.com/kayracihanbaskan/authService",
+        "live": "https://auth-service-wheat.vercel.app"
+      }
+    ]
+  },
+  "experience": {
+    "eyebrow": "Experience",
+    "title": "Work history",
+    "subtitle": "I worked in real product teams with code review and sustainable code quality.",
+    "items": [
+      {
+        "role": "Software Development & AI Intern",
+        "company": "Bilsoft Yazılım A.Ş.",
+        "location": "Samsun",
+        "period": "Jun 2026 – Present",
+        "bullets": [
+          "Contributed to enterprise accounting chatbot backend services (FastAPI, MySQL, Redis, Ollama/Qwen); designed intent-based SQL Agent architecture.",
+          "Added intent-based SQL chatbot tab to the RAG UI; owned error handling, API design and a four-layer security model.",
+          "Supported Docker container operations and secure VPS deployment planning; building an n8n-based microservice bot platform."
+        ]
+      },
+      {
+        "role": "SAP Support & Business Intelligence Intern",
+        "company": "Sampa Otomotiv A.Ş.",
+        "location": "Samsun",
+        "period": "Aug 2025 – Jan 2026",
+        "bullets": [
+          "Integrated OpenAI embedding-based summarization and smart tag suggestions into a FastAPI + PostgreSQL notes app.",
+          "Backend development and data modeling in a Django + PostgreSQL e-commerce project.",
+          "Demand forecasting with Random Forest, XGBoost, LightGBM and a PyTorch Temporal Fusion Transformer; four-week ABAP training."
+        ]
+      },
+      {
+        "role": "Backend Developer — İŞKUR Youth Program",
+        "company": "Samsun University",
+        "location": "Samsun",
+        "period": "Mar 2025 – Jun 2025",
+        "bullets": [
+          "Built a web backend app with FastAPI; security, endpoint design and database management.",
+          "Set up Pydantic validation, routing design and centralized error handling."
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "eyebrow": "Skills",
+    "title": "Technical toolbox",
+    "groups": [
+      {
+        "name": "Backend",
+        "items": ["Python", "FastAPI", "Django", "Django REST", "ASP.NET Core", "Node.js", "Express.js", "REST API", "JWT", "Swagger/OpenAPI", "Clean Architecture", "Celery", "C#", "TypeScript", "SQL"]
+      },
+      {
+        "name": "Artificial Intelligence",
+        "items": ["LLM", "RAG", "Agentic AI", "LangChain", "Ollama", "Qwen", "OpenAI API", "OpenRouter", "BGE Embeddings", "Cross-Encoder Reranking", "Prompt Engineering", "SQL Agent"]
+      },
+      {
+        "name": "Databases",
+        "items": ["PostgreSQL", "MySQL", "SQL Server", "MongoDB", "Redis", "ChromaDB", "Alembic"]
+      },
+      {
+        "name": "DevOps & Frontend",
+        "items": ["Docker", "Docker Compose", "Git/GitHub", "Linux", "Vercel", "n8n", "Next.js", "React", "Tailwind CSS", "SSE"]
+      }
+    ]
+  },
+  "education": {
+    "eyebrow": "Education & Awards",
+    "degree": "Software Engineering, B.Sc.",
+    "school": "Samsun University",
+    "period": "Jul 2026",
+    "gpa": "GPA: 2.95 / 4.00",
+    "award": "R&D Incentive Award — Turkish Ministry of Transport and Infrastructure, “Accessible Türkiye 2053” Competition (2025, 2026)",
+    "english": "English: B1 (Intermediate)"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's work together",
+    "subtitle": "Reach out for backend and AI projects, internships or junior roles.",
+    "email": "cihankayrabaskan@gmail.com",
+    "emailLabel": "Send email",
+    "github": "https://github.com/kayracihanbaskan",
+    "linkedin": "https://linkedin.com/in/kayracihanbaskan"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "builtWith": "Built with Next.js + Tailwind CSS"
+  }
+}

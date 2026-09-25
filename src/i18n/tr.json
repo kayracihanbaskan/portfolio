@@ -1,0 +1,145 @@
+{
+  "nav": {
+    "projects": "Projeler",
+    "experience": "Deneyim",
+    "skills": "Yetenekler",
+    "contact": "İletişim",
+    "cv": "CV İndir",
+    "langLabel": "Dil seçimi",
+    "menuLabel": "Menü"
+  },
+  "hero": {
+    "greeting": "Merhaba, ben",
+    "name": "Kayra Cihan Başkan",
+    "title": "Yazılım Mühendisi | Backend & Yapay Zeka",
+    "summary": "FastAPI tabanlı backend geliştirme ve LLM/RAG entegrasyonu üzerine çalışıyorum. Ölçeklenebilir API'ler, mikroservis mimarileri ve kurumsal veriye bağlı yapay zeka sistemleri geliştiriyorum.",
+    "location": "Samsun, Türkiye",
+    "availability": "Yeni fırsatlara açığım",
+    "ctaProjects": "Projeleri Gör",
+    "ctaContact": "İletişime Geç"
+  },
+  "projects": {
+    "eyebrow": "Projelerim",
+    "title": "Öne çıkan çalışmalar",
+    "subtitle": "Gerçek ürünlerde ve bireysel projelerde geliştirdiğim backend ve yapay zeka sistemleri.",
+    "viewCode": "Kodu Gör",
+    "viewLive": "Canlı Demo",
+    "items": [
+      {
+        "title": "RAG Doküman Analiz Sistemi",
+        "type": "Bireysel Proje",
+        "description": "PDF dokümanlarıyla doğal dilde soru-cevap yapılabilen uçtan uca RAG sistemi. Celery + Redis ile asenkron embedding kuyruğu, BGE + Cross-Encoder reranking, SSE ile gerçek zamanlı yanıt akışı.",
+        "stack": ["FastAPI", "ChromaDB", "Redis", "Celery", "Docker", "Next.js", "SSE"],
+        "repo": "https://github.com/kayracihanbaskan/rag-document-analysis",
+        "live": ""
+      },
+      {
+        "title": "Yapay Zeka Destekli Not Uygulaması",
+        "type": "Ekip Projesi",
+        "description": "JWT tabanlı güvenli RESTful API; OpenAI embedding ile otomatik etiket önerisi, özetleme ve semantik arama. PostgreSQL şeması Alembic ile yönetildi.",
+        "stack": ["FastAPI", "PostgreSQL", "OpenAI", "Alembic", "JWT", "TypeScript"],
+        "repo": "https://github.com/kayracihanbaskan/notepad_internn",
+        "live": ""
+      },
+      {
+        "title": "npm Bağımlılık Ağı 3B Analizi",
+        "type": "Ekip Araştırma Projesi",
+        "description": "npm paketlerinin bağımlılık ağını NetworkX ile modelleyip Plotly ile 3 boyutlu interaktif grafik olarak sunan araç. Özyinelemeli veri çekme optimize edildi.",
+        "stack": ["FastAPI", "NetworkX", "Plotly", "Jinja"],
+        "repo": "https://github.com/kayracihanbaskan/SocialNetworkAnalysis",
+        "live": ""
+      },
+      {
+        "title": "Auth Servisi (Next.js)",
+        "type": "Bireysel Proje",
+        "description": "Kayıt, giriş, şifre sıfırlama ve oturum yönetimini kapsayan uçtan uca kimlik doğrulama servisi. Vercel üzerinde canlı demo mevcut.",
+        "stack": ["Next.js", "JWT", "TypeScript"],
+        "repo": "https://github.com/kayracihanbaskan/authService",
+        "live": "https://auth-service-wheat.vercel.app"
+      }
+    ]
+  },
+  "experience": {
+    "eyebrow": "Deneyim",
+    "title": "Çalışma geçmişi",
+    "subtitle": "Gerçek ürünlerin geliştirme süreçlerinde ekip çalışması, kod inceleme ve sürdürülebilir kod kalitesiyle çalıştım.",
+    "items": [
+      {
+        "role": "Yazılım Geliştirme ve Yapay Zeka Stajyeri",
+        "company": "Bilsoft Yazılım A.Ş.",
+        "location": "Samsun",
+        "period": "Haz 2026 – Devam",
+        "bullets": [
+          "Kurumsal muhasebe chatbotunda FastAPI, MySQL, Redis ve Ollama/Qwen tabanlı backend servislerine katkı; intent tabanlı SQL Agent mimarisi tasarımı.",
+          "RAG arayüzüne intent tabanlı SQL chatbot sekmesi; hata yönetimi, API tasarımı ve dört katmanlı güvenlik modelinden sorumluluk.",
+          "Docker tabanlı container ortamı yönetimi ve VPS üzerinde güvenli dağıtım planlamasına destek; n8n tabanlı mikroservis bot platformu geliştirme."
+        ]
+      },
+      {
+        "role": "SAP Destek ve İş Zekası Birimi Stajyeri",
+        "company": "Sampa Otomotiv A.Ş.",
+        "location": "Samsun",
+        "period": "Ağu 2025 – Oca 2026",
+        "bullets": [
+          "FastAPI + PostgreSQL not uygulamasına OpenAI embedding ile özetleme ve akıllı etiket önerisi entegrasyonu.",
+          "Django + PostgreSQL e-ticaret projesinde backend geliştirme ve veri modelleme.",
+          "Talep tahmini için Random Forest, XGBoost, LightGBM ve PyTorch ile Temporal Fusion Transformer modelleri; dört haftalık ABAP eğitimi."
+        ]
+      },
+      {
+        "role": "Backend Geliştirici — İŞKUR Gençlik Programı",
+        "company": "Samsun Üniversitesi",
+        "location": "Samsun",
+        "period": "Mar 2025 – Haz 2025",
+        "bullets": [
+          "FastAPI ile web tabanlı backend uygulaması; güvenlik, endpoint tasarımı ve veritabanı yönetimi.",
+          "Pydantic veri doğrulama, routing tasarımı ve merkezi hata yönetimi mekanizmaları."
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "eyebrow": "Yetenekler",
+    "title": "Teknik araç seti",
+    "groups": [
+      {
+        "name": "Backend",
+        "items": ["Python", "FastAPI", "Django", "Django REST", "ASP.NET Core", "Node.js", "Express.js", "REST API", "JWT", "Swagger/OpenAPI", "Clean Architecture", "Celery", "C#", "TypeScript", "SQL"]
+      },
+      {
+        "name": "Yapay Zeka",
+        "items": ["LLM", "RAG", "Agentic AI", "LangChain", "Ollama", "Qwen", "OpenAI API", "OpenRouter", "BGE Embeddings", "Cross-Encoder Reranking", "Prompt Engineering", "SQL Agent"]
+      },
+      {
+        "name": "Veritabanı",
+        "items": ["PostgreSQL", "MySQL", "SQL Server", "MongoDB", "Redis", "ChromaDB", "Alembic"]
+      },
+      {
+        "name": "DevOps & Frontend",
+        "items": ["Docker", "Docker Compose", "Git/GitHub", "Linux", "Vercel", "n8n", "Next.js", "React", "Tailwind CSS", "SSE"]
+      }
+    ]
+  },
+  "education": {
+    "eyebrow": "Eğitim & Ödüller",
+    "degree": "Yazılım Mühendisliği, Lisans",
+    "school": "Samsun Üniversitesi",
+    "period": "Tem 2026",
+    "gpa": "GNO: 2.95 / 4.00",
+    "award": "Ar-Ge Teşvik Ödülü — T.C. Ulaştırma ve Altyapı Bakanlığı, “Ulaşan ve Erişen Türkiye 2053” Yarışması (2025, 2026)",
+    "english": "İngilizce: B1 (Intermediate)"
+  },
+  "contact": {
+    "eyebrow": "İletişim",
+    "title": "Birlikte çalışalım",
+    "subtitle": "Backend ve yapay zeka projeleri, staj veya junior roller için bana ulaşabilirsiniz.",
+    "email": "cihankayrabaskan@gmail.com",
+    "emailLabel": "E-posta gönder",
+    "github": "https://github.com/kayracihanbaskan",
+    "linkedin": "https://linkedin.com/in/kayracihanbaskan"
+  },
+  "footer": {
+    "rights": "Tüm hakları saklıdır.",
+    "builtWith": "Next.js + Tailwind CSS ile geliştirildi"
+  }
+}
