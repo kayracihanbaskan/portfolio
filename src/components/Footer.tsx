@@ -7,11 +7,10 @@ export function Footer() {
 
   return (
     <footer className="border-t border-slate-200 bg-slate-50/60 dark:border-slate-800 dark:bg-slate-900/40">
-      <div className="mx-auto flex w-full max-w-5xl flex-col items-center justify-between gap-3 px-5 py-8 text-center md:flex-row md:px-8 md:text-left">
+      <div className="mx-auto w-full max-w-5xl px-5 py-8 text-center md:px-8">
         <p className="text-sm text-slate-500 dark:text-slate-400">
           © 2026 Kayra Cihan Başkan · {t.footer.rights}
         </p>
-        <p className="text-xs text-slate-400 dark:text-slate-500">{t.footer.builtWith}</p>
       </div>
     </footer>
   );
