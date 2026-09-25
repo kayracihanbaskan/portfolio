@@ -6,7 +6,9 @@
     "contact": "İletişim",
     "cv": "CV İndir",
     "langLabel": "Dil seçimi",
-    "menuLabel": "Menü"
+    "menuLabel": "Menü",
+    "themeDark": "Koyu temaya geç",
+    "themeLight": "Açık temaya geç"
   },
   "hero": {
     "greeting": "Merhaba, ben",
@@ -132,7 +134,7 @@
   "contact": {
     "eyebrow": "İletişim",
     "title": "Birlikte çalışalım",
-    "subtitle": "Backend ve yapay zeka projeleri, staj veya junior roller için bana ulaşabilirsiniz.",
+    "subtitle": "Backend ve yapay zeka projeleri ile junior roller için bana ulaşabilirsiniz.",
     "email": "cihankayrabaskan@gmail.com",
     "emailLabel": "E-posta gönder",
     "github": "https://github.com/kayracihanbaskan",

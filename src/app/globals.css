@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
   --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
   --font-heading: "Plus Jakarta Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
@@ -7,6 +9,10 @@
 
 :root {
   color-scheme: light;
+}
+
+.dark {
+  color-scheme: dark;
 }
 
 html {
@@ -21,9 +27,19 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+.dark body {
+  background-color: #020617;
+  color: #f1f5f9;
+}
+
 ::selection {
   background-color: #ddd6fe;
   color: #1e1b4b;
+}
+
+.dark ::selection {
+  background-color: #312e81;
+  color: #e0e7ff;
 }
 
 @utility text-gradient {
@@ -31,6 +47,10 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+
+.dark .text-gradient {
+  background-image: linear-gradient(to right, #a5b4fc, #c4b5fd, #7dd3fc);
 }
 
 @utility bg-gradient-brand {

@@ -6,7 +6,9 @@
     "contact": "Contact",
     "cv": "Download CV",
     "langLabel": "Language selection",
-    "menuLabel": "Menu"
+    "menuLabel": "Menu",
+    "themeDark": "Switch to dark theme",
+    "themeLight": "Switch to light theme"
   },
   "hero": {
     "greeting": "Hi, I'm",
@@ -132,7 +134,7 @@
   "contact": {
     "eyebrow": "Contact",
     "title": "Let's work together",
-    "subtitle": "Reach out for backend and AI projects, internships or junior roles.",
+    "subtitle": "Reach out for backend and AI projects or junior roles.",
     "email": "cihankayrabaskan@gmail.com",
     "emailLabel": "Send email",
     "github": "https://github.com/kayracihanbaskan",
