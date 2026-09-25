@@ -42,3 +42,6 @@ next-env.d.ts
 
 # commandcode local config
 .commandcode/
+
+# personal cv source (kept local only)
+knowledge.md
